@@ -46,4 +46,6 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps, {fetchColors}) (BubblePage);
+// export default connect(mapStateToProps, {fetchColors})(BubblePage);
+
+export default BubblePage;
